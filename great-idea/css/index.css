@@ -54,7 +54,7 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +64,86 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+nav a {
+	text-decoration: none;
+	color: gray;
+	margin: 10px 0px;
+}
+footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer > div {
+	width: 45%;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-content: space-around;
+	margin-left: 20px;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+main > div {
+	border: 1px solid black;
+	padding: 15px;
+	width: 45%;
+	height: 250px;
+	margin: 20px;
+}
+
+body {
+	width: 800px;
+	margin:0 auto;
+}
+
+.services-header-img {
+	width:780px;
+	margin-bottom: 20px;
+}
+
+.services-info-img {
+	width:380px;
+}
+h1 {
+	font-size: 1.5em;
+}
+
+hr {
+	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+ol {
+	display: block;
+	list-style-type: square;
+	padding-left: 20px;
+  }
+
+ol li {
+	margin-bottom: 10px;
+}
+
+.copyright {
+	margin-top: 80px;
+	margin-left: 40%;
+}
+
+button {
+	border-radius: 5px;
+	padding: 5px 30px;
+	margin-top: 15px;
+}
